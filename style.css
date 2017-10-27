@@ -1,0 +1,82 @@
+body {
+  display: flex;
+  background-color: gray;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -70%);
+}
+
+nav {
+  
+}
+
+a {
+  text-decoration: none;
+  color: coral;
+  font-family: sans-serif;
+  font-size: ;
+}
+
+h1 {
+  color: coral;
+  font-family: sans-serif;
+}
+
+ul {
+  color: royalblue;
+  font-family: sans-serif;
+  list-style: none;
+  padding-left: 0;
+}
+
+li{
+  padding: 3px;
+  border-radius: 9px;
+}
+
+li:hover {
+  background-color: coral;
+  color: royalblue;
+}
+
+button {
+  font-family: sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  color: coral;
+  background-color: lightgrey;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  border-radius: 19px;
+  padding: 10px;
+  border-style: none;
+}
+
+button:hover {
+  background-color: coral;
+  color: lightgrey;
+}
+
+input {
+  border-radius: 9px;
+  border-color: coral;
+  border-style: solid;
+  background-color: royalblue;
+  font-family: sans-serif;
+  color: coral;
+  padding: 10px;
+}
+
+/**for the mobile implementation of the menu - hides main menu so that drop down can be used
+@media (min-width: 320px) and (max-width: 568px) {
+#menu ul {
+  display: none;
+}
+}
+
+@media (min-width: 568px){
+#menu select, #menu button {
+  display: none;
+}
+}**/
